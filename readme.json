@@ -1,0 +1,24 @@
+{
+    "authors": [
+        "Nishant Sharma"
+    ],
+    "description": "This is a Readme Generator for Python Projects. This can be used to generate Readme(s) faster, without putting a lot of efforts to assist the community developers in a much better and easier way!",
+    "license": "mit",
+    "important_links": {
+        "My Instagram": "https://www.instagram.com/_nishan.t/",
+        "My LinkedIn": "https://www.linkedin.com/in/nishantsh20/"
+    },
+    "readers_note": {
+        "Guess What?": "This Readme is made using this library only!",
+        "Feel free to Reach me out for collabs!": "I am a curious developer, who wants to build 2 Impact, Eager to Connect to other Curious Developers!"
+    },
+    "commands": {
+        "create readme": "create_readme() // callable function",
+        "update readme": "update_readme() // callable function"
+    },
+    "dependencies": [
+        "os",
+        "json",
+        "colorama==0.4.4"
+    ]
+}

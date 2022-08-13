@@ -1,0 +1,40 @@
+### Project Name:
+
+This is a Readme Generator for Python Projects. This can be used to generate Readme(s) faster, without putting a lot of efforts to assist the community developers in a much better and easier way!
+
+### Authors:
+
+Nishant Sharma
+
+### License:
+
+mit
+
+### Scripts:
+
+**create readme:**
+
+	create_readme() // callable function
+
+
+**update readme:**
+
+	update_readme() // callable function
+
+
+### Reader's Notes:
+
+**Guess What?:**  This Readme is made using this library only!
+
+**Feel free to Reach me out for collabs!:**  I am a curious developer, who wants to build 2 Impact, Eager to Connect to other Curious Developers!
+
+
+### Check These Out:
+
+[My Instagram](https://www.instagram.com/_nishan.t/) | [My LinkedIn](https://www.linkedin.com/in/nishantsh20/) 
+
+### Project Dependencies:
+
+	os
+	json
+	colorama==0.4.4
