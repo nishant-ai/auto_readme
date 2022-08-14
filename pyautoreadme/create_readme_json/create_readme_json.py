@@ -18,6 +18,7 @@ class ReadmeData:
         ]
 
         self.readme_data = {
+            'project_name': '',
             'authors': [], # list of authors
             'description': None, # string
             'license': None, # string
@@ -37,6 +38,7 @@ class ReadmeData:
         print(Fore.GREEN)
 
         try:
+            self.set_project_name()
             self.set_authors()
             self.set_description()
             self.set_license()
@@ -74,6 +76,10 @@ class ReadmeData:
 
             self.readme_data[attribute][title] = value
 
+    
+    def set_project_name(self) -> None:
+        self.readme_data['project_name'] = input("  # Project Name: ")
+        print()
 
     def set_authors(self) -> None:
         self.readme_data['authors'] = input("  # Authors (author 1, author 2, etc...): ").split(',')

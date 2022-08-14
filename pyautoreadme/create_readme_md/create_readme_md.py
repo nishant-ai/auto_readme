@@ -1,4 +1,5 @@
 import json
+from datetime import date
 
 class Readme:
     '''Create Readme.md'''
@@ -23,6 +24,7 @@ class Readme:
         self.add_readers_notes()
         self.add_important_links()
         self.add_dependencies()
+        self.add_date()
 
         # close readme.md
         self.file.close()
@@ -31,10 +33,13 @@ class Readme:
         '''Add Description to Readme.md'''
 
         description = self.data['description']
+        project_name = self.data['project_name']
 
         if description == '': return
 
-        self.file.write('### Project Name:\n\n')
+        if project_name == '': project_name = 'PyProject:'
+
+        self.file.write(f'### {project_name}:\n\n')
         self.file.write(description + '\n\n')
 
     
@@ -129,6 +134,11 @@ class Readme:
         for dep in dependencies:
             self.file.write(f'\t{dep}\n')
 
+    def add_date(self) -> None:
+        '''Add Date Created On to Readme.md'''
+
+        today_date = str(date.today())
+        self.file.write(f'\n**Published On:** {today_date}\n')
 
 if __name__ == '__main__':
     Readme()

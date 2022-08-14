@@ -23,12 +23,12 @@ mit
 
 **create readme:**
 
-	create_readme() // callable function
+	readme.create() // callable function
 
 
 **update readme:**
 
-	update_readme() // callable function
+	readme.update() // callable function
 
 
 ### Reader's Notes:
