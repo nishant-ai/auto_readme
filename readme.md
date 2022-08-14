@@ -1,6 +1,15 @@
-### Project Name:
+### PyAutoReadme:
 
 This is a Readme Generator for Python Projects. This can be used to generate Readme(s) faster, without putting a lot of efforts to assist the community developers in a much better and easier way!
+
+
+### How to Use?
+
+	from pyautoreaadme import readme
+
+	readme.create() # call to create a readme
+	readme.update() # call to update the readme after changing data in readme.json
+
 
 ### Authors:
 
