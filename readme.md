@@ -5,7 +5,7 @@ This is a Readme Generator for Python Projects. This can be used to generate Rea
 
 ### How to Use?
 
-	from autopyreaadme import readme
+	from autopyreadme import readme
 
 	readme.create() # call to create a readme
 	readme.update() # call to update the readme after changing data in readme.json
