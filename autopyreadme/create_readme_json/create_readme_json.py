@@ -156,6 +156,10 @@ class ReadmeData:
         '''
         pass
 
+    def set_additional_section(self) -> None:
+        '''Planned to Add Additional Sections to the Readme'''
+        pass
+
 
 if __name__ == '__main__':
     ReadmeData()
